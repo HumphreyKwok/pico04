@@ -1,4 +1,4 @@
-update=21/06/2020 22:57:53
+update=22/06/2020 00:52:09
 version=1
 last_client=kicad
 [general]
@@ -36,3 +36,5 @@ LibDir=
 version=1
 [sheetnames]
 1=aa0b42d5-4c0d-44fe-94ab-69d7148d395b:
+[ModEditFrame]
+version=1
