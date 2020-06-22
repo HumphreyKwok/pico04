@@ -1,4 +1,4 @@
-(module "WS2812B-3528" (layer F.Cu) (tedit 5EEF902F)
+(module "WS2812B-3528" (layer F.Cu) (tedit 5EF07AE5)
   (fp_text reference "LED**" (at 0 -2.55 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -16,4 +16,9 @@
   (pad "3" smd rect (at -2.7 0.73) (size 1.8 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 77222bb1-9421-4ff2-b54f-6ef5f1aa5acc))
   (pad "2" smd rect (at 2.7 0.73) (size 1.8 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 433b1b26-fecb-48da-97f2-55c7b91ccb3b))
   (pad "1" smd rect (at 2.7 -0.73) (size 1.8 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f248798d-ee0a-484e-9bd6-d439db3f4143))
+  (model "${KIPRJMOD}/3d models/WS2812_RGB_LED.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

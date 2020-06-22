@@ -1,4 +1,4 @@
-update=22/06/2020 16:35:07
+update=22/06/2020 17:34:28
 version=1
 last_client=kicad
 [general]
@@ -13,8 +13,6 @@ version=1
 LibDir=
 [eeschema/libraries]
 [SchematicFrame]
-version=1
-[ModEditFrame]
 version=1
 [sheetnames]
 1=7cbf943f-4cf1-4be5-bd89-54a1ffb8ff77:
@@ -321,3 +319,5 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[ModEditFrame]
+version=1
