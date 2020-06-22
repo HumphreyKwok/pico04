@@ -1,6 +1,9 @@
 # pico04
 A Cherry MX 4-key pad for fun. </br>
-Cosidering the size limitation, Atemage16u2MU is used instead of 32u4AU.
+Cosidering the size limitation, Atemage16u2MU is used instead of 32u4AU. </br>
+![alt text](https://github.com/HumphreyKwok/pico04/blob/master/images/pico04_front.jpg?raw=true)
+
+![alt text](https://github.com/HumphreyKwok/pico04/blob/master/images/pico04_back.jpg?raw=true)
 
 ## Features
 - USB Type-C connector
