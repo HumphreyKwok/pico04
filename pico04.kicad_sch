@@ -884,8 +884,8 @@
   (junction (at 241.3 31.75))
   (junction (at 260.35 31.75))
 
-  (no_connect (at 58.42 44.45))
   (no_connect (at 242.57 123.19))
+  (no_connect (at 58.42 44.45))
   (no_connect (at 58.42 29.21))
 
   (wire (pts (xy 46.355 79.375) (xy 46.355 83.185))
@@ -1243,7 +1243,19 @@
   (global_label "XTAL2" (shape input) (at 155.575 44.45 180)
     (effects (font (size 1.27 1.27)) (justify right))
   )
+  (global_label "ROW1" (shape input) (at 191.135 39.37 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+  )
   (global_label "RGBLED" (shape input) (at 191.135 41.91 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+  )
+  (global_label "ROW0" (shape input) (at 191.135 62.23 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+  )
+  (global_label "COL0" (shape input) (at 191.135 67.31 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+  )
+  (global_label "COL1" (shape input) (at 191.135 80.01 0)
     (effects (font (size 1.27 1.27)) (justify left))
   )
   (global_label "ROW0" (shape input) (at 228.6 44.45 180)
@@ -1471,7 +1483,7 @@
 
   (symbol (lib_id "power:GND") (at 234.95 134.62 0) (unit 1)
     (uuid "1d2d9655-11b9-43b8-8ab6-612e24aa6fec")
-    (property "Reference" "#PWR?" (id 0) (at 234.95 140.97 0)
+    (property "Reference" "#PWR0116" (id 0) (at 234.95 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 235.0643 138.9444 0))
@@ -1572,8 +1584,8 @@
   )
 
   (symbol (lib_id "Device:D_Small") (at 231.775 40.64 90) (unit 1)
-    (uuid "3ff054c0-d21f-48f0-bf05-8c876ae67903")
-    (property "Reference" "D1" (id 0) (at 233.5531 39.4906 90)
+    (uuid "bd4ab8ad-2f65-4d8a-8d0d-c0821e4954a4")
+    (property "Reference" "D1" (id 0) (at 233.553 39.491 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SOD-123" (id 1) (at 233.553 41.789 90)
@@ -1588,8 +1600,8 @@
   )
 
   (symbol (lib_id "Device:D_Small") (at 231.775 59.69 90) (unit 1)
-    (uuid "bd4ab8ad-2f65-4d8a-8d0d-c0821e4954a4")
-    (property "Reference" "D3" (id 0) (at 233.5531 58.5406 90)
+    (uuid "3ff054c0-d21f-48f0-bf05-8c876ae67903")
+    (property "Reference" "D3" (id 0) (at 233.553 58.541 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SOD-123" (id 1) (at 233.553 60.839 90)
@@ -1604,8 +1616,8 @@
   )
 
   (symbol (lib_id "Device:D_Small") (at 250.825 40.64 90) (unit 1)
-    (uuid "25c6b1f6-bc0a-40f6-83d3-4b08379c2571")
-    (property "Reference" "D2" (id 0) (at 252.6031 39.4906 90)
+    (uuid "40e942c4-856f-4481-9752-16af2cfdf79c")
+    (property "Reference" "D2" (id 0) (at 252.603 39.491 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SOD-123" (id 1) (at 252.603 41.789 90)
@@ -1620,8 +1632,8 @@
   )
 
   (symbol (lib_id "Device:D_Small") (at 250.825 59.69 90) (unit 1)
-    (uuid "40e942c4-856f-4481-9752-16af2cfdf79c")
-    (property "Reference" "D4" (id 0) (at 252.6031 58.5406 90)
+    (uuid "25c6b1f6-bc0a-40f6-83d3-4b08379c2571")
+    (property "Reference" "D4" (id 0) (at 252.603 58.541 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SOD-123" (id 1) (at 252.603 60.839 90)
@@ -1800,8 +1812,8 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 237.49 33.02 0) (unit 1)
-    (uuid "74801bab-9abf-47a8-a68b-5b4028d688b4")
-    (property "Reference" "MX1" (id 0) (at 238.3755 27.4192 0)
+    (uuid "cea816e9-fe33-478f-83b6-8714a776833b")
+    (property "Reference" "MX1" (id 0) (at 238.375 27.419 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (id 1) (at 238.3755 29.3089 0)
@@ -1816,8 +1828,8 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 237.49 52.07 0) (unit 1)
-    (uuid "cea816e9-fe33-478f-83b6-8714a776833b")
-    (property "Reference" "MX3" (id 0) (at 238.3755 46.4692 0)
+    (uuid "74801bab-9abf-47a8-a68b-5b4028d688b4")
+    (property "Reference" "MX3" (id 0) (at 238.375 46.469 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (id 1) (at 238.3755 48.3589 0)
@@ -1832,8 +1844,8 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 256.54 33.02 0) (unit 1)
-    (uuid "de405e8f-3a87-4ab0-b6fb-c3378cb8c0db")
-    (property "Reference" "MX2" (id 0) (at 257.4255 27.4192 0)
+    (uuid "d35a3ce5-ec9f-41d8-9163-6e0433cc9ea7")
+    (property "Reference" "MX2" (id 0) (at 257.425 27.419 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (id 1) (at 257.4255 29.3089 0)
@@ -1848,8 +1860,8 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 256.54 52.07 0) (unit 1)
-    (uuid "d35a3ce5-ec9f-41d8-9163-6e0433cc9ea7")
-    (property "Reference" "MX4" (id 0) (at 257.4255 46.4692 0)
+    (uuid "de405e8f-3a87-4ab0-b6fb-c3378cb8c0db")
+    (property "Reference" "MX4" (id 0) (at 257.425 46.469 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (id 1) (at 257.4255 48.3589 0)
@@ -2018,7 +2030,7 @@
       (reference "#PWR0115") (unit 1)
     )
     (path "/1d2d9655-11b9-43b8-8ab6-612e24aa6fec"
-      (reference "#PWR?") (unit 1)
+      (reference "#PWR0116") (unit 1)
     )
     (path "/26bfde33-3b17-4dfa-b632-b75632d47ae7"
       (reference "C1") (unit 1)
@@ -2047,31 +2059,31 @@
     (path "/0a550a9e-3a79-4eca-89cd-228daaa59c11"
       (reference "CRGB4") (unit 1)
     )
-    (path "/3ff054c0-d21f-48f0-bf05-8c876ae67903"
+    (path "/bd4ab8ad-2f65-4d8a-8d0d-c0821e4954a4"
       (reference "D1") (unit 1)
     )
-    (path "/25c6b1f6-bc0a-40f6-83d3-4b08379c2571"
+    (path "/40e942c4-856f-4481-9752-16af2cfdf79c"
       (reference "D2") (unit 1)
     )
-    (path "/bd4ab8ad-2f65-4d8a-8d0d-c0821e4954a4"
+    (path "/3ff054c0-d21f-48f0-bf05-8c876ae67903"
       (reference "D3") (unit 1)
     )
-    (path "/40e942c4-856f-4481-9752-16af2cfdf79c"
+    (path "/25c6b1f6-bc0a-40f6-83d3-4b08379c2571"
       (reference "D4") (unit 1)
     )
     (path "/a3ed5267-cdbc-4464-988f-9736569da4a6"
       (reference "F1") (unit 1)
     )
-    (path "/74801bab-9abf-47a8-a68b-5b4028d688b4"
+    (path "/cea816e9-fe33-478f-83b6-8714a776833b"
       (reference "MX1") (unit 1)
     )
-    (path "/de405e8f-3a87-4ab0-b6fb-c3378cb8c0db"
+    (path "/d35a3ce5-ec9f-41d8-9163-6e0433cc9ea7"
       (reference "MX2") (unit 1)
     )
-    (path "/cea816e9-fe33-478f-83b6-8714a776833b"
+    (path "/74801bab-9abf-47a8-a68b-5b4028d688b4"
       (reference "MX3") (unit 1)
     )
-    (path "/d35a3ce5-ec9f-41d8-9163-6e0433cc9ea7"
+    (path "/de405e8f-3a87-4ab0-b6fb-c3378cb8c0db"
       (reference "MX4") (unit 1)
     )
     (path "/3406e4b1-94b3-49e8-86dd-5e85defee035"

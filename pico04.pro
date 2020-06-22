@@ -1,4 +1,4 @@
-update=22/06/2020 02:47:22
+update=22/06/2020 15:03:12
 version=1
 last_client=kicad
 [general]
@@ -14,8 +14,6 @@ LibDir=
 [eeschema/libraries]
 [SchematicFrame]
 version=1
-[sheetnames]
-1=0f463a26-88df-477f-8959-ec806a9c07ce:
 [ModEditFrame]
 version=1
 [pcbnew]
@@ -25,7 +23,7 @@ LastNetListRead=
 LastSTEPExportPath=
 LastIDFExportPath=
 LastVRMLExportPath=
-LastSpecctraDSNExportPath=
+LastSpecctraDSNExportPath=pico04.dsn
 LastGenCADExportPath=
 CopperLayerCount=2
 BoardThickness=1.6
@@ -142,7 +140,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -321,3 +319,5 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[sheetnames]
+1=262e040e-9313-4fa6-bbe9-9ff682328f6e:
