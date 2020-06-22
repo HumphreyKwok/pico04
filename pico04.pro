@@ -1,6 +1,6 @@
-update=22/06/2020 17:34:28
+update=22/06/2020 20:21:32
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -15,11 +15,13 @@ LibDir=
 [SchematicFrame]
 version=1
 [sheetnames]
-1=7cbf943f-4cf1-4be5-bd89-54a1ffb8ff77:
+1=d24a16a0-a5ae-4626-b0f4-eda3043b0eb8:
+[ModEditFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=./
 LastSTEPExportPath=
 LastIDFExportPath=
 LastVRMLExportPath=
@@ -319,5 +321,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[ModEditFrame]
-version=1

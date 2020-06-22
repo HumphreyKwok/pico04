@@ -220,7 +220,7 @@
       (property "Footprint" "" (id 2) (at 1.27 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch" (id 4) (at 0 0 0)
@@ -884,8 +884,8 @@
   (junction (at 241.3 31.75))
   (junction (at 260.35 31.75))
 
-  (no_connect (at 242.57 123.19))
   (no_connect (at 58.42 29.21))
+  (no_connect (at 242.57 123.19))
   (no_connect (at 58.42 44.45))
 
   (wire (pts (xy 46.355 79.375) (xy 46.355 83.185))
@@ -904,6 +904,9 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 57.15 127.635) (xy 69.85 127.635))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 57.15 132.715) (xy 69.85 132.715))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 58.42 24.13) (xy 71.12 24.13))
@@ -948,7 +951,7 @@
   (wire (pts (xy 69.85 127.635) (xy 82.55 127.635))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 69.85 132.715) (xy 57.15 132.715))
+  (wire (pts (xy 69.85 132.715) (xy 82.55 132.715))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 71.12 24.13) (xy 71.12 31.75))
@@ -1008,7 +1011,7 @@
   (wire (pts (xy 82.55 127.635) (xy 95.25 127.635))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 82.55 132.715) (xy 69.85 132.715))
+  (wire (pts (xy 82.55 132.715) (xy 95.25 132.715))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 83.82 34.29) (xy 83.82 39.37))
@@ -1039,9 +1042,6 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 92.075 26.67) (xy 102.87 26.67))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 95.25 132.715) (xy 82.55 132.715))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 95.25 132.715) (xy 95.25 140.335))
@@ -1249,10 +1249,10 @@
   (global_label "RGBLED" (shape input) (at 191.135 41.91 0)
     (effects (font (size 1.27 1.27)) (justify left))
   )
-  (global_label "ROW0" (shape input) (at 191.135 62.23 0)
+  (global_label "COL0" (shape input) (at 191.135 67.31 0)
     (effects (font (size 1.27 1.27)) (justify left))
   )
-  (global_label "COL0" (shape input) (at 191.135 67.31 0)
+  (global_label "ROW0" (shape input) (at 191.135 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left))
   )
   (global_label "COL1" (shape input) (at 191.135 80.01 0)
@@ -1680,7 +1680,7 @@
   )
 
   (symbol (lib_name "Device:C_Small_1") (lib_id "Device:C_Small") (at 57.15 130.175 0) (unit 1)
-    (uuid "3dd54350-3067-4efe-a0fe-53feda87da3f")
+    (uuid "d9825be5-035b-4657-aec7-0d08e2e89aa6")
     (property "Reference" "CRGB1" (id 0) (at 59.474 129.026 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1696,7 +1696,7 @@
   )
 
   (symbol (lib_name "Device:C_Small_1") (lib_id "Device:C_Small") (at 69.85 130.175 0) (unit 1)
-    (uuid "4c6b186c-719a-4471-8623-ed589bc596e2")
+    (uuid "3dd54350-3067-4efe-a0fe-53feda87da3f")
     (property "Reference" "CRGB2" (id 0) (at 72.174 129.026 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1736,7 +1736,7 @@
   )
 
   (symbol (lib_name "Device:C_Small_1") (lib_id "Device:C_Small") (at 82.55 130.175 0) (unit 1)
-    (uuid "d9825be5-035b-4657-aec7-0d08e2e89aa6")
+    (uuid "4c6b186c-719a-4471-8623-ed589bc596e2")
     (property "Reference" "CRGB3" (id 0) (at 84.874 129.026 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1892,7 +1892,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 139.7 123.19 0) (unit 1)
-    (uuid "0c11f51b-50c9-4496-8a4f-32ce7c5ae082")
+    (uuid "91570c5a-fb32-4650-b2f9-ffa7d38ce130")
     (property "Reference" "RGB1" (id 0) (at 148.336 122.041 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1908,7 +1908,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 171.45 123.19 0) (unit 1)
-    (uuid "a1823596-5379-48ca-9e79-e27617d7fddd")
+    (uuid "6fc1c3c7-e8a4-4e61-9814-224857e3a7ab")
     (property "Reference" "RGB2" (id 0) (at 180.086 122.041 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1924,7 +1924,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 203.2 123.19 0) (unit 1)
-    (uuid "91570c5a-fb32-4650-b2f9-ffa7d38ce130")
+    (uuid "0c11f51b-50c9-4496-8a4f-32ce7c5ae082")
     (property "Reference" "RGB3" (id 0) (at 211.836 122.041 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1940,7 +1940,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 234.95 123.19 0) (unit 1)
-    (uuid "6fc1c3c7-e8a4-4e61-9814-224857e3a7ab")
+    (uuid "a1823596-5379-48ca-9e79-e27617d7fddd")
     (property "Reference" "RGB4" (id 0) (at 243.586 122.041 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2047,13 +2047,13 @@
     (path "/70209dde-474a-4774-ac3f-fcc88d19dbe0"
       (reference "C5") (unit 1)
     )
-    (path "/3dd54350-3067-4efe-a0fe-53feda87da3f"
+    (path "/d9825be5-035b-4657-aec7-0d08e2e89aa6"
       (reference "CRGB1") (unit 1)
     )
-    (path "/4c6b186c-719a-4471-8623-ed589bc596e2"
+    (path "/3dd54350-3067-4efe-a0fe-53feda87da3f"
       (reference "CRGB2") (unit 1)
     )
-    (path "/d9825be5-035b-4657-aec7-0d08e2e89aa6"
+    (path "/4c6b186c-719a-4471-8623-ed589bc596e2"
       (reference "CRGB3") (unit 1)
     )
     (path "/0a550a9e-3a79-4eca-89cd-228daaa59c11"
@@ -2104,16 +2104,16 @@
     (path "/bf867883-2711-482d-af3b-b52d7f772f6c"
       (reference "R6") (unit 1)
     )
-    (path "/0c11f51b-50c9-4496-8a4f-32ce7c5ae082"
+    (path "/91570c5a-fb32-4650-b2f9-ffa7d38ce130"
       (reference "RGB1") (unit 1)
     )
-    (path "/a1823596-5379-48ca-9e79-e27617d7fddd"
+    (path "/6fc1c3c7-e8a4-4e61-9814-224857e3a7ab"
       (reference "RGB2") (unit 1)
     )
-    (path "/91570c5a-fb32-4650-b2f9-ffa7d38ce130"
+    (path "/0c11f51b-50c9-4496-8a4f-32ce7c5ae082"
       (reference "RGB3") (unit 1)
     )
-    (path "/6fc1c3c7-e8a4-4e61-9814-224857e3a7ab"
+    (path "/a1823596-5379-48ca-9e79-e27617d7fddd"
       (reference "RGB4") (unit 1)
     )
     (path "/f0831704-0910-4354-adca-f2a233ead888"
