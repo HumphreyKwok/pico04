@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 3927)
+    (start_pass_no 9)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -53,6 +53,7 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
+    "@:no_net_0" "@:no_net_1"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -66,9 +67,9 @@
     GND "Net-(C1-Pad1)" +5V XTAL1 XTAL2 "Net-(D1-Pad2)" ROW0 "Net-(D2-Pad2)"
     "Net-(D3-Pad2)" ROW1 "Net-(D4-Pad2)" VCC COL0 COL1 "Net-(R1-Pad2)" "Net-(R2-Pad2)"
     "Net-(R3-Pad2)" "Net-(R4-Pad2)" D+ "Net-(R5-Pad2)" "D-" "Net-(R6-Pad1)" "Net-(RGB1-Pad2)" RGBLED
-    "Net-(RGB2-Pad2)" "Net-(RGB3-Pad2)" "Net-(RGB4-Pad2)" "Net-(U2-Pad26)" "Net-(U2-Pad25)" "Net-(U2-Pad23)" "Net-(U2-Pad22)" "Net-(U2-Pad21)"
-    "Net-(U2-Pad20)" "Net-(U2-Pad19)" "Net-(U2-Pad18)" "Net-(U2-Pad16)" "Net-(U2-Pad15)" "Net-(U2-Pad14)" "Net-(U2-Pad12)" "Net-(U2-Pad11)"
-    "Net-(U2-Pad10)" "Net-(U2-Pad9)" "Net-(U2-Pad8)" "Net-(U2-Pad7)" "Net-(U2-Pad6)" "Net-(U2-Pad5)" "Net-(USB1-Pad3)" "Net-(USB1-Pad9)"
+    "Net-(RGB2-Pad2)" "Net-(RGB3-Pad2)" "Net-(U2-Pad26)" "Net-(U2-Pad23)" "Net-(U2-Pad21)" "Net-(U2-Pad20)" "Net-(U2-Pad19)" "Net-(U2-Pad18)"
+    "Net-(U2-Pad15)" "Net-(U2-Pad14)" "Net-(U2-Pad12)" "Net-(U2-Pad11)" "Net-(U2-Pad10)" "Net-(U2-Pad8)" "Net-(U2-Pad7)" "Net-(U2-Pad6)"
+    "Net-(U2-Pad5)" "Net-(USB1-Pad3)" "Net-(USB1-Pad9)" "Net-(RGB1-Pad4)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
