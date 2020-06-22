@@ -1,4 +1,4 @@
-(module "MXOnly-1U-Hotswap" (layer F.Cu) (tedit 5EEC4D23)
+(module "MXOnly-1U-Hotswap" (layer F.Cu) (tedit 5EF06429)
   (attr smd)
   (fp_text reference "REF**" (at 0 3.048) (layer B.CrtYd)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -42,4 +42,9 @@
   (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask) (tstamp 11e23f1a-b192-4299-87d8-53d8765d4406))
   (pad "1" smd rect (at -7.085 -2.54) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp d0c9edfe-a3f5-4f97-a866-c08b0a26a9ec))
   (pad "2" smd rect (at 5.842 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp f3d586b7-303b-405f-b899-770774b1acc4))
+  (model "${KIPRJMOD}/3d models/Kailh Hotswap MX v22.step"
+    (offset (xyz -0.65 4.8 -3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

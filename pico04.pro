@@ -1,4 +1,4 @@
-update=22/06/2020 15:03:12
+update=22/06/2020 16:35:07
 version=1
 last_client=kicad
 [general]
@@ -16,6 +16,8 @@ LibDir=
 version=1
 [ModEditFrame]
 version=1
+[sheetnames]
+1=7cbf943f-4cf1-4be5-bd89-54a1ffb8ff77:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -319,5 +321,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[sheetnames]
-1=262e040e-9313-4fa6-bbe9-9ff682328f6e:
